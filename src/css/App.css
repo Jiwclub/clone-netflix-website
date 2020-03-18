@@ -8,16 +8,24 @@
 }
 * {
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 body {
     font-family: 'Helvetica';
     -webkit-font-smoothing: antialiased;
     background: var(--main-dark);
     color: #fff;
+    overflow-x: hidden;
 }
 a{
     text-decoration: none;
-    color: #fff;
+  color: var(--main-white);
+}
+h1,h2,h3,h4 {
+    color: var(--main-white);
 }
 
 /* Header Section */
